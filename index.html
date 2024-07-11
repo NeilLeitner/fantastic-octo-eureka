@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neil Leitner - Tennis Instructor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2e8b57;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #2e8b57;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .media img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Neil Leitner</h1>
+        <p>Tennis Instructor</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#media">Media</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m Neil Leitner, a passionate tennis instructor with years of experience in coaching players of all levels. I believe in a holistic approach to training that not only focuses on technique but also on physical and mental strength.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Private Tennis Lessons</li>
+                <li>Group Coaching Sessions</li>
+                <li>Junior Development Programs</li>
+                <li>Fitness and Conditioning Training</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you’re interested in improving your tennis skills, feel free to reach out to me!</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+        <section id="media" class="media">
+            <h2>Media</h2>
+            <p>Check out some photos and videos from my coaching sessions and tournaments.</p>
+            <img src="tennis-court.jpg" alt="Tennis Court">
+            <img src="coaching.jpg" alt="Coaching Session">
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Neil Leitner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
